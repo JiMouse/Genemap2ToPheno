@@ -95,7 +95,7 @@ for line in sys.stdin:
             if matcher:
 
                 # Get the fields
-                phenotype = matcher.group(1)
+                phenotypeText = matcher.group(1)
                 phenotypeMappingKey = matcher.group(2)
                 inheritances = matcher.group(3)
 
